@@ -76,9 +76,9 @@ public class RegistrationPageTest extends TestBase{
   public void RegisterAccountTest() throws InterruptedException {
 	  log.info("Register an account with faker class data test");
 	  try {
-		log.info("Entering personal details");
+		log.info("fill personal details");
 		  regPg.setPersonalDetails(fname, lname, email, telephone, fax);
-		  log.info("Entering address details");
+		  log.info("Fill address details");
 		  regPg.setAddressDetails(compName, addr1, addr2, city, postcode, country, state);
 		  log.info("setting the password ");
 		  String pwd = WebDriverFactory.randomAlphaNumeric();
@@ -103,7 +103,7 @@ public class RegistrationPageTest extends TestBase{
 	}
   }
 
-  @Test(description="TC_02_Register an account with excel data",dataProvider="excelData",priority=2)
+  @Test(description="TC_02_Register an account with excel data and datadriven test",dataProvider="excelData",priority=2)
   public void registerAccountWithExcelDataTest(String fName,String lName,String telePhone,String passwd,String subScribe) {
 	  log.info("Register an account with Excel data");
 	  try {
