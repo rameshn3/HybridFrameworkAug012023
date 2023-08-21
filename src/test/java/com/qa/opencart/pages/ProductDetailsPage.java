@@ -79,6 +79,7 @@ public Map<String,String> getProductInformation(){
 }
 
 public void clickAddToCartBtn() throws InterruptedException {
+	log.info("click on add to cart button");
 	click(addToCartBtn);
 }
 
