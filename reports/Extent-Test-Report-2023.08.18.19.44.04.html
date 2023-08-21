@@ -1,0 +1,3362 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>opencart Automation Report</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report dark">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">opencart Functional Testing</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Aug 18, 2023 07:44:04 PM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">RegistrationPageTest</a><a class="dropdown-item" href="#">ProductDetailsPageTest</a><a class="dropdown-item" href="#">LoginPageTest</a><a class="dropdown-item" href="#">HomePageTest</a><a class="dropdown-item" href="#">OpencartSuite</a><a class="dropdown-item" href="#">MyAccountPageTest</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag="HomePageTest OpencartSuite"
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyOpencartLogoTest</p>
+            <p class="text-sm">
+              <span>7:44:14 PM</span> / <span>00:00:00:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyOpencartLogoTest</h5>
+<span class='badge badge-success'>08.18.2023 7:44:14 PM</span>
+<span class='badge badge-danger'>08.18.2023 7:44:14 PM</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">HomePageTest</span>
+<span class="badge badge-pill badge-default">OpencartSuite</span></div>
+<div class="m-t-10 m-l-5">TC_01_verifying the opencartlogo</div>
+</div>
+</div>          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="2"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyOpencartLogoTest</p>
+            <p class="text-sm">
+              <span>7:44:14 PM</span> / <span>00:00:00:252</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyOpencartLogoTest</h5>
+<span class='badge badge-success'>08.18.2023 7:44:14 PM</span>
+<span class='badge badge-danger'>08.18.2023 7:44:14 PM</span>
+<span class='badge badge-default'>00:00:00:252</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\eclipse-workspace\HybridFrameworkAug012023\screenshots\verifyOpencartLogoTest_20230818074414.png' src="C:\eclipse-workspace\HybridFrameworkAug012023\screenshots\verifyOpencartLogoTest_20230818074414.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:44:14 PM</td>
+        <td>
+          Test Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="3"
+          author=""
+          tag="HomePageTest OpencartSuite"
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyOpencartPageTitleTest</p>
+            <p class="text-sm">
+              <span>7:44:14 PM</span> / <span>00:00:00:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyOpencartPageTitleTest</h5>
+<span class='badge badge-success'>08.18.2023 7:44:14 PM</span>
+<span class='badge badge-danger'>08.18.2023 7:44:14 PM</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">HomePageTest</span>
+<span class="badge badge-pill badge-default">OpencartSuite</span></div>
+<div class="m-t-10 m-l-5">TC_02_verifying the opencart page title</div>
+</div>
+</div>          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="4"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyOpencartPageTitleTest</p>
+            <p class="text-sm">
+              <span>7:44:14 PM</span> / <span>00:00:00:199</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyOpencartPageTitleTest</h5>
+<span class='badge badge-success'>08.18.2023 7:44:14 PM</span>
+<span class='badge badge-danger'>08.18.2023 7:44:15 PM</span>
+<span class='badge badge-default'>00:00:00:199</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\eclipse-workspace\HybridFrameworkAug012023\screenshots\verifyOpencartPageTitleTest_20230818074414.png' src="C:\eclipse-workspace\HybridFrameworkAug012023\screenshots\verifyOpencartPageTitleTest_20230818074414.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:44:14 PM</td>
+        <td>
+          Test Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="5"
+          author=""
+          tag="HomePageTest OpencartSuite"
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyFeaturedCardsCountTest</p>
+            <p class="text-sm">
+              <span>7:44:15 PM</span> / <span>00:00:00:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyFeaturedCardsCountTest</h5>
+<span class='badge badge-success'>08.18.2023 7:44:15 PM</span>
+<span class='badge badge-danger'>08.18.2023 7:44:15 PM</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">HomePageTest</span>
+<span class="badge badge-pill badge-default">OpencartSuite</span></div>
+<div class="m-t-10 m-l-5">TC_03_verifying the featured section cards count</div>
+</div>
+</div>          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="6"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyFeaturedCardsCountTest</p>
+            <p class="text-sm">
+              <span>7:44:15 PM</span> / <span>00:00:00:204</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyFeaturedCardsCountTest</h5>
+<span class='badge badge-success'>08.18.2023 7:44:15 PM</span>
+<span class='badge badge-danger'>08.18.2023 7:44:15 PM</span>
+<span class='badge badge-default'>00:00:00:204</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\eclipse-workspace\HybridFrameworkAug012023\screenshots\verifyFeaturedCardsCountTest_20230818074415.png' src="C:\eclipse-workspace\HybridFrameworkAug012023\screenshots\verifyFeaturedCardsCountTest_20230818074415.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:44:15 PM</td>
+        <td>
+          Test Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="7"
+          author=""
+          tag="HomePageTest OpencartSuite"
+          device="">
+          <div class="test-detail">
+            <p class="name">navigateToRegistrationPageTest</p>
+            <p class="text-sm">
+              <span>7:44:15 PM</span> / <span>00:00:00:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">navigateToRegistrationPageTest</h5>
+<span class='badge badge-success'>08.18.2023 7:44:15 PM</span>
+<span class='badge badge-danger'>08.18.2023 7:44:15 PM</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">HomePageTest</span>
+<span class="badge badge-pill badge-default">OpencartSuite</span></div>
+<div class="m-t-10 m-l-5">TC_04_navigate to registration page</div>
+</div>
+</div>          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="8"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">navigateToRegistrationPageTest</p>
+            <p class="text-sm">
+              <span>7:44:23 PM</span> / <span>00:00:00:251</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">navigateToRegistrationPageTest</h5>
+<span class='badge badge-success'>08.18.2023 7:44:23 PM</span>
+<span class='badge badge-danger'>08.18.2023 7:44:23 PM</span>
+<span class='badge badge-default'>00:00:00:251</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\eclipse-workspace\HybridFrameworkAug012023\screenshots\navigateToRegistrationPageTest_20230818074423.png' src="C:\eclipse-workspace\HybridFrameworkAug012023\screenshots\navigateToRegistrationPageTest_20230818074423.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:44:23 PM</td>
+        <td>
+          Test Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="9"
+          author=""
+          tag="HomePageTest OpencartSuite"
+          device="">
+          <div class="test-detail">
+            <p class="name">navigateToLoginPageTest</p>
+            <p class="text-sm">
+              <span>7:44:23 PM</span> / <span>00:00:00:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">navigateToLoginPageTest</h5>
+<span class='badge badge-success'>08.18.2023 7:44:23 PM</span>
+<span class='badge badge-danger'>08.18.2023 7:44:23 PM</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">HomePageTest</span>
+<span class="badge badge-pill badge-default">OpencartSuite</span></div>
+<div class="m-t-10 m-l-5">TC_05_navigate to login page</div>
+</div>
+</div>          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="10"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">navigateToLoginPageTest</p>
+            <p class="text-sm">
+              <span>7:44:30 PM</span> / <span>00:00:00:238</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">navigateToLoginPageTest</h5>
+<span class='badge badge-success'>08.18.2023 7:44:30 PM</span>
+<span class='badge badge-danger'>08.18.2023 7:44:30 PM</span>
+<span class='badge badge-default'>00:00:00:238</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=10</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\eclipse-workspace\HybridFrameworkAug012023\screenshots\navigateToLoginPageTest_20230818074430.png' src="C:\eclipse-workspace\HybridFrameworkAug012023\screenshots\navigateToLoginPageTest_20230818074430.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:44:30 PM</td>
+        <td>
+          Test Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="11"
+          author=""
+          tag="OpencartSuite LoginPageTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyLoginPageUrlTest</p>
+            <p class="text-sm">
+              <span>7:44:39 PM</span> / <span>00:00:00:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyLoginPageUrlTest</h5>
+<span class='badge badge-success'>08.18.2023 7:44:39 PM</span>
+<span class='badge badge-danger'>08.18.2023 7:44:39 PM</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=11</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">OpencartSuite</span>
+<span class="badge badge-pill badge-default">LoginPageTest</span></div>
+<div class="m-t-10 m-l-5">TC_01_verifying the login page url</div>
+</div>
+</div>          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="12"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyLoginPageUrlTest</p>
+            <p class="text-sm">
+              <span>7:44:39 PM</span> / <span>00:00:00:167</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyLoginPageUrlTest</h5>
+<span class='badge badge-success'>08.18.2023 7:44:39 PM</span>
+<span class='badge badge-danger'>08.18.2023 7:44:40 PM</span>
+<span class='badge badge-default'>00:00:00:167</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=12</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\eclipse-workspace\HybridFrameworkAug012023\screenshots\verifyLoginPageUrlTest_20230818074439.png' src="C:\eclipse-workspace\HybridFrameworkAug012023\screenshots\verifyLoginPageUrlTest_20230818074439.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:44:39 PM</td>
+        <td>
+          Test Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="13"
+          author=""
+          tag="OpencartSuite LoginPageTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyLoginPageTitleTest</p>
+            <p class="text-sm">
+              <span>7:44:40 PM</span> / <span>00:00:00:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyLoginPageTitleTest</h5>
+<span class='badge badge-success'>08.18.2023 7:44:40 PM</span>
+<span class='badge badge-danger'>08.18.2023 7:44:40 PM</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=13</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">OpencartSuite</span>
+<span class="badge badge-pill badge-default">LoginPageTest</span></div>
+<div class="m-t-10 m-l-5">TC_02_verifying the login page title</div>
+</div>
+</div>          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="14"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyLoginPageTitleTest</p>
+            <p class="text-sm">
+              <span>7:44:40 PM</span> / <span>00:00:00:128</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyLoginPageTitleTest</h5>
+<span class='badge badge-success'>08.18.2023 7:44:40 PM</span>
+<span class='badge badge-danger'>08.18.2023 7:44:40 PM</span>
+<span class='badge badge-default'>00:00:00:128</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=14</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\eclipse-workspace\HybridFrameworkAug012023\screenshots\verifyLoginPageTitleTest_20230818074440.png' src="C:\eclipse-workspace\HybridFrameworkAug012023\screenshots\verifyLoginPageTitleTest_20230818074440.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:44:40 PM</td>
+        <td>
+          Test Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="15"
+          author=""
+          tag="OpencartSuite LoginPageTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyLoginPageElementsTest</p>
+            <p class="text-sm">
+              <span>7:44:40 PM</span> / <span>00:00:00:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyLoginPageElementsTest</h5>
+<span class='badge badge-success'>08.18.2023 7:44:40 PM</span>
+<span class='badge badge-danger'>08.18.2023 7:44:40 PM</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=15</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">OpencartSuite</span>
+<span class="badge badge-pill badge-default">LoginPageTest</span></div>
+<div class="m-t-10 m-l-5">TC_03_verifying the login page elements</div>
+</div>
+</div>          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="16"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyLoginPageElementsTest</p>
+            <p class="text-sm">
+              <span>7:44:40 PM</span> / <span>00:00:00:134</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyLoginPageElementsTest</h5>
+<span class='badge badge-success'>08.18.2023 7:44:40 PM</span>
+<span class='badge badge-danger'>08.18.2023 7:44:40 PM</span>
+<span class='badge badge-default'>00:00:00:134</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=16</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\eclipse-workspace\HybridFrameworkAug012023\screenshots\verifyLoginPageElementsTest_20230818074440.png' src="C:\eclipse-workspace\HybridFrameworkAug012023\screenshots\verifyLoginPageElementsTest_20230818074440.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:44:40 PM</td>
+        <td>
+          Test Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="17"
+          author=""
+          tag="OpencartSuite LoginPageTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">navigateToRegistrationPageTest</p>
+            <p class="text-sm">
+              <span>7:44:40 PM</span> / <span>00:00:00:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">navigateToRegistrationPageTest</h5>
+<span class='badge badge-success'>08.18.2023 7:44:40 PM</span>
+<span class='badge badge-danger'>08.18.2023 7:44:40 PM</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=17</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">OpencartSuite</span>
+<span class="badge badge-pill badge-default">LoginPageTest</span></div>
+<div class="m-t-10 m-l-5">TC_04_navigate to registration from login page</div>
+</div>
+</div>          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="18"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">navigateToRegistrationPageTest</p>
+            <p class="text-sm">
+              <span>7:44:43 PM</span> / <span>00:00:00:145</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">navigateToRegistrationPageTest</h5>
+<span class='badge badge-success'>08.18.2023 7:44:43 PM</span>
+<span class='badge badge-danger'>08.18.2023 7:44:43 PM</span>
+<span class='badge badge-default'>00:00:00:145</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=18</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\eclipse-workspace\HybridFrameworkAug012023\screenshots\navigateToRegistrationPageTest_20230818074443.png' src="C:\eclipse-workspace\HybridFrameworkAug012023\screenshots\navigateToRegistrationPageTest_20230818074443.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:44:43 PM</td>
+        <td>
+          Test Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="19"
+          author=""
+          tag="OpencartSuite LoginPageTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">navigateToForgotPasswordPageTest</p>
+            <p class="text-sm">
+              <span>7:44:43 PM</span> / <span>00:00:00:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">navigateToForgotPasswordPageTest</h5>
+<span class='badge badge-success'>08.18.2023 7:44:43 PM</span>
+<span class='badge badge-danger'>08.18.2023 7:44:43 PM</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=19</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">OpencartSuite</span>
+<span class="badge badge-pill badge-default">LoginPageTest</span></div>
+<div class="m-t-10 m-l-5">TC_05_navigate to forgot password page</div>
+</div>
+</div>          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="20"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">navigateToForgotPasswordPageTest</p>
+            <p class="text-sm">
+              <span>7:44:46 PM</span> / <span>00:00:00:147</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">navigateToForgotPasswordPageTest</h5>
+<span class='badge badge-success'>08.18.2023 7:44:46 PM</span>
+<span class='badge badge-danger'>08.18.2023 7:44:46 PM</span>
+<span class='badge badge-default'>00:00:00:147</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=20</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\eclipse-workspace\HybridFrameworkAug012023\screenshots\navigateToForgotPasswordPageTest_20230818074446.png' src="C:\eclipse-workspace\HybridFrameworkAug012023\screenshots\navigateToForgotPasswordPageTest_20230818074446.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:44:46 PM</td>
+        <td>
+          Test Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="21"
+          author=""
+          tag="OpencartSuite LoginPageTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">emptyCredsLoginTest</p>
+            <p class="text-sm">
+              <span>7:44:46 PM</span> / <span>00:00:00:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">emptyCredsLoginTest</h5>
+<span class='badge badge-success'>08.18.2023 7:44:46 PM</span>
+<span class='badge badge-danger'>08.18.2023 7:44:46 PM</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=21</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">OpencartSuite</span>
+<span class="badge badge-pill badge-default">LoginPageTest</span></div>
+<div class="m-t-10 m-l-5">TC_07_Empty Credentils login to opencart app</div>
+</div>
+</div>          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="22"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">emptyCredsLoginTest</p>
+            <p class="text-sm">
+              <span>7:44:54 PM</span> / <span>00:00:00:149</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">emptyCredsLoginTest</h5>
+<span class='badge badge-success'>08.18.2023 7:44:54 PM</span>
+<span class='badge badge-danger'>08.18.2023 7:44:54 PM</span>
+<span class='badge badge-default'>00:00:00:149</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=22</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\eclipse-workspace\HybridFrameworkAug012023\screenshots\emptyCredsLoginTest_20230818074454.png' src="C:\eclipse-workspace\HybridFrameworkAug012023\screenshots\emptyCredsLoginTest_20230818074454.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:44:54 PM</td>
+        <td>
+          Test Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="23"
+          author=""
+          tag="OpencartSuite LoginPageTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">happyPathLoginTest</p>
+            <p class="text-sm">
+              <span>7:44:54 PM</span> / <span>00:00:00:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">happyPathLoginTest</h5>
+<span class='badge badge-success'>08.18.2023 7:44:54 PM</span>
+<span class='badge badge-danger'>08.18.2023 7:44:54 PM</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=23</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">OpencartSuite</span>
+<span class="badge badge-pill badge-default">LoginPageTest</span></div>
+<div class="m-t-10 m-l-5">TC_06_Happy path flow login to opencart app</div>
+</div>
+</div>          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="24"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">happyPathLoginTest</p>
+            <p class="text-sm">
+              <span>7:45:01 PM</span> / <span>00:00:00:111</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">happyPathLoginTest</h5>
+<span class='badge badge-success'>08.18.2023 7:45:01 PM</span>
+<span class='badge badge-danger'>08.18.2023 7:45:01 PM</span>
+<span class='badge badge-default'>00:00:00:111</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=24</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\eclipse-workspace\HybridFrameworkAug012023\screenshots\happyPathLoginTest_20230818074501.png' src="C:\eclipse-workspace\HybridFrameworkAug012023\screenshots\happyPathLoginTest_20230818074501.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:45:01 PM</td>
+        <td>
+          Test Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="25"
+          author=""
+          tag="OpencartSuite LoginPageTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">logoutTest</p>
+            <p class="text-sm">
+              <span>7:45:01 PM</span> / <span>00:00:00:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">logoutTest</h5>
+<span class='badge badge-success'>08.18.2023 7:45:01 PM</span>
+<span class='badge badge-danger'>08.18.2023 7:45:01 PM</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=25</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">OpencartSuite</span>
+<span class="badge badge-pill badge-default">LoginPageTest</span></div>
+<div class="m-t-10 m-l-5">TC_08_logout test</div>
+</div>
+</div>          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="26"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">logoutTest</p>
+            <p class="text-sm">
+              <span>7:45:09 PM</span> / <span>00:00:00:243</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">logoutTest</h5>
+<span class='badge badge-success'>08.18.2023 7:45:09 PM</span>
+<span class='badge badge-danger'>08.18.2023 7:45:09 PM</span>
+<span class='badge badge-default'>00:00:00:243</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=26</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\eclipse-workspace\HybridFrameworkAug012023\screenshots\logoutTest_20230818074509.png' src="C:\eclipse-workspace\HybridFrameworkAug012023\screenshots\logoutTest_20230818074509.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:45:09 PM</td>
+        <td>
+          Test Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="27"
+          author=""
+          tag="OpencartSuite MyAccountPageTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyMyAccountPageUrlTest</p>
+            <p class="text-sm">
+              <span>7:45:25 PM</span> / <span>00:00:00:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyMyAccountPageUrlTest</h5>
+<span class='badge badge-success'>08.18.2023 7:45:25 PM</span>
+<span class='badge badge-danger'>08.18.2023 7:45:25 PM</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=27</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">OpencartSuite</span>
+<span class="badge badge-pill badge-default">MyAccountPageTest</span></div>
+<div class="m-t-10 m-l-5">TC_01_VerifyingMyAccountPage url</div>
+</div>
+</div>          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="28"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyMyAccountPageUrlTest</p>
+            <p class="text-sm">
+              <span>7:45:25 PM</span> / <span>00:00:00:158</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyMyAccountPageUrlTest</h5>
+<span class='badge badge-success'>08.18.2023 7:45:25 PM</span>
+<span class='badge badge-danger'>08.18.2023 7:45:25 PM</span>
+<span class='badge badge-default'>00:00:00:158</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=28</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\eclipse-workspace\HybridFrameworkAug012023\screenshots\verifyMyAccountPageUrlTest_20230818074525.png' src="C:\eclipse-workspace\HybridFrameworkAug012023\screenshots\verifyMyAccountPageUrlTest_20230818074525.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:45:25 PM</td>
+        <td>
+          Test Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="29"
+          author=""
+          tag="OpencartSuite MyAccountPageTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyMyAccountPageTitleTest</p>
+            <p class="text-sm">
+              <span>7:45:25 PM</span> / <span>00:00:00:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyMyAccountPageTitleTest</h5>
+<span class='badge badge-success'>08.18.2023 7:45:25 PM</span>
+<span class='badge badge-danger'>08.18.2023 7:45:25 PM</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=29</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">OpencartSuite</span>
+<span class="badge badge-pill badge-default">MyAccountPageTest</span></div>
+<div class="m-t-10 m-l-5">TC_02_Verifying the MyAccount Page Title</div>
+</div>
+</div>          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="30"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyMyAccountPageTitleTest</p>
+            <p class="text-sm">
+              <span>7:45:25 PM</span> / <span>00:00:00:108</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyMyAccountPageTitleTest</h5>
+<span class='badge badge-success'>08.18.2023 7:45:25 PM</span>
+<span class='badge badge-danger'>08.18.2023 7:45:25 PM</span>
+<span class='badge badge-default'>00:00:00:108</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=30</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\eclipse-workspace\HybridFrameworkAug012023\screenshots\verifyMyAccountPageTitleTest_20230818074525.png' src="C:\eclipse-workspace\HybridFrameworkAug012023\screenshots\verifyMyAccountPageTitleTest_20230818074525.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:45:25 PM</td>
+        <td>
+          Test Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="31"
+          author=""
+          tag="OpencartSuite MyAccountPageTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyMyAccountPageElementsTest</p>
+            <p class="text-sm">
+              <span>7:45:25 PM</span> / <span>00:00:00:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyMyAccountPageElementsTest</h5>
+<span class='badge badge-success'>08.18.2023 7:45:25 PM</span>
+<span class='badge badge-danger'>08.18.2023 7:45:25 PM</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=31</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">OpencartSuite</span>
+<span class="badge badge-pill badge-default">MyAccountPageTest</span></div>
+<div class="m-t-10 m-l-5">TC_03_verify My Account Page Elements</div>
+</div>
+</div>          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="32"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyMyAccountPageElementsTest</p>
+            <p class="text-sm">
+              <span>7:45:27 PM</span> / <span>00:00:00:125</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyMyAccountPageElementsTest</h5>
+<span class='badge badge-success'>08.18.2023 7:45:27 PM</span>
+<span class='badge badge-danger'>08.18.2023 7:45:28 PM</span>
+<span class='badge badge-default'>00:00:00:125</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=32</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\eclipse-workspace\HybridFrameworkAug012023\screenshots\verifyMyAccountPageElementsTest_20230818074527.png' src="C:\eclipse-workspace\HybridFrameworkAug012023\screenshots\verifyMyAccountPageElementsTest_20230818074527.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:45:27 PM</td>
+        <td>
+          Test Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="33"
+          author=""
+          tag="OpencartSuite MyAccountPageTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyMyAccountMenuOptionsTest</p>
+            <p class="text-sm">
+              <span>7:45:28 PM</span> / <span>00:00:00:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyMyAccountMenuOptionsTest</h5>
+<span class='badge badge-success'>08.18.2023 7:45:28 PM</span>
+<span class='badge badge-danger'>08.18.2023 7:45:28 PM</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=33</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">OpencartSuite</span>
+<span class="badge badge-pill badge-default">MyAccountPageTest</span></div>
+<div class="m-t-10 m-l-5">TC_04_verify My account options list</div>
+</div>
+</div>          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="34"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyMyAccountMenuOptionsTest</p>
+            <p class="text-sm">
+              <span>7:45:30 PM</span> / <span>00:00:00:103</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyMyAccountMenuOptionsTest</h5>
+<span class='badge badge-success'>08.18.2023 7:45:30 PM</span>
+<span class='badge badge-danger'>08.18.2023 7:45:30 PM</span>
+<span class='badge badge-default'>00:00:00:103</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=34</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\eclipse-workspace\HybridFrameworkAug012023\screenshots\verifyMyAccountMenuOptionsTest_20230818074530.png' src="C:\eclipse-workspace\HybridFrameworkAug012023\screenshots\verifyMyAccountMenuOptionsTest_20230818074530.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:45:30 PM</td>
+        <td>
+          Test Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="35"
+          author=""
+          tag="OpencartSuite MyAccountPageTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyMyAccountHeadersListTest</p>
+            <p class="text-sm">
+              <span>7:45:30 PM</span> / <span>00:00:00:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyMyAccountHeadersListTest</h5>
+<span class='badge badge-success'>08.18.2023 7:45:30 PM</span>
+<span class='badge badge-danger'>08.18.2023 7:45:30 PM</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=35</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">OpencartSuite</span>
+<span class="badge badge-pill badge-default">MyAccountPageTest</span></div>
+<div class="m-t-10 m-l-5">TC_05_Verify My Account headers list </div>
+</div>
+</div>          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="36"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyMyAccountHeadersListTest</p>
+            <p class="text-sm">
+              <span>7:45:30 PM</span> / <span>00:00:00:119</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyMyAccountHeadersListTest</h5>
+<span class='badge badge-success'>08.18.2023 7:45:30 PM</span>
+<span class='badge badge-danger'>08.18.2023 7:45:30 PM</span>
+<span class='badge badge-default'>00:00:00:119</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=36</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\eclipse-workspace\HybridFrameworkAug012023\screenshots\verifyMyAccountHeadersListTest_20230818074530.png' src="C:\eclipse-workspace\HybridFrameworkAug012023\screenshots\verifyMyAccountHeadersListTest_20230818074530.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:45:30 PM</td>
+        <td>
+          Test Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="37"
+          author=""
+          tag="OpencartSuite MyAccountPageTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyBrokenLinksInMyAccountPageTest</p>
+            <p class="text-sm">
+              <span>7:45:30 PM</span> / <span>00:00:00:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyBrokenLinksInMyAccountPageTest</h5>
+<span class='badge badge-success'>08.18.2023 7:45:30 PM</span>
+<span class='badge badge-danger'>08.18.2023 7:45:30 PM</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=37</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">OpencartSuite</span>
+<span class="badge badge-pill badge-default">MyAccountPageTest</span></div>
+<div class="m-t-10 m-l-5">TC_06_verify the broken links in my account page</div>
+</div>
+</div>          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="38"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyBrokenLinksInMyAccountPageTest</p>
+            <p class="text-sm">
+              <span>7:46:08 PM</span> / <span>00:00:00:137</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyBrokenLinksInMyAccountPageTest</h5>
+<span class='badge badge-success'>08.18.2023 7:46:08 PM</span>
+<span class='badge badge-danger'>08.18.2023 7:46:08 PM</span>
+<span class='badge badge-default'>00:00:00:137</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=38</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\eclipse-workspace\HybridFrameworkAug012023\screenshots\verifyBrokenLinksInMyAccountPageTest_20230818074608.png' src="C:\eclipse-workspace\HybridFrameworkAug012023\screenshots\verifyBrokenLinksInMyAccountPageTest_20230818074608.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:46:08 PM</td>
+        <td>
+          Test Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="39"
+          author=""
+          tag="OpencartSuite MyAccountPageTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">PerformProductSearchTest</p>
+            <p class="text-sm">
+              <span>7:46:08 PM</span> / <span>00:00:00:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">PerformProductSearchTest</h5>
+<span class='badge badge-success'>08.18.2023 7:46:08 PM</span>
+<span class='badge badge-danger'>08.18.2023 7:46:08 PM</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=39</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">OpencartSuite</span>
+<span class="badge badge-pill badge-default">MyAccountPageTest</span></div>
+<div class="m-t-10 m-l-5">TC_07_Perform product search</div>
+</div>
+</div>          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="40"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">PerformProductSearchTest</p>
+            <p class="text-sm">
+              <span>7:46:13 PM</span> / <span>00:00:00:182</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">PerformProductSearchTest</h5>
+<span class='badge badge-success'>08.18.2023 7:46:13 PM</span>
+<span class='badge badge-danger'>08.18.2023 7:46:13 PM</span>
+<span class='badge badge-default'>00:00:00:182</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=40</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\eclipse-workspace\HybridFrameworkAug012023\screenshots\PerformProductSearchTest_20230818074613.png' src="C:\eclipse-workspace\HybridFrameworkAug012023\screenshots\PerformProductSearchTest_20230818074613.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:46:13 PM</td>
+        <td>
+          Test Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="41"
+          author=""
+          tag="OpencartSuite MyAccountPageTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">PerformProductSearchTest</p>
+            <p class="text-sm">
+              <span>7:46:13 PM</span> / <span>00:00:00:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">PerformProductSearchTest</h5>
+<span class='badge badge-success'>08.18.2023 7:46:13 PM</span>
+<span class='badge badge-danger'>08.18.2023 7:46:13 PM</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=41</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">OpencartSuite</span>
+<span class="badge badge-pill badge-default">MyAccountPageTest</span></div>
+<div class="m-t-10 m-l-5">TC_07_Perform product search</div>
+</div>
+</div>          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="42"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">PerformProductSearchTest</p>
+            <p class="text-sm">
+              <span>7:46:18 PM</span> / <span>00:00:00:141</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">PerformProductSearchTest</h5>
+<span class='badge badge-success'>08.18.2023 7:46:18 PM</span>
+<span class='badge badge-danger'>08.18.2023 7:46:18 PM</span>
+<span class='badge badge-default'>00:00:00:141</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=42</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\eclipse-workspace\HybridFrameworkAug012023\screenshots\PerformProductSearchTest_20230818074618.png' src="C:\eclipse-workspace\HybridFrameworkAug012023\screenshots\PerformProductSearchTest_20230818074618.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:46:18 PM</td>
+        <td>
+          Test Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="43"
+          author=""
+          tag="OpencartSuite MyAccountPageTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">PerformProductSearchTest</p>
+            <p class="text-sm">
+              <span>7:46:18 PM</span> / <span>00:00:00:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">PerformProductSearchTest</h5>
+<span class='badge badge-success'>08.18.2023 7:46:18 PM</span>
+<span class='badge badge-danger'>08.18.2023 7:46:18 PM</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=43</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">OpencartSuite</span>
+<span class="badge badge-pill badge-default">MyAccountPageTest</span></div>
+<div class="m-t-10 m-l-5">TC_07_Perform product search</div>
+</div>
+</div>          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="44"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">PerformProductSearchTest</p>
+            <p class="text-sm">
+              <span>7:46:23 PM</span> / <span>00:00:00:147</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">PerformProductSearchTest</h5>
+<span class='badge badge-success'>08.18.2023 7:46:23 PM</span>
+<span class='badge badge-danger'>08.18.2023 7:46:23 PM</span>
+<span class='badge badge-default'>00:00:00:147</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=44</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\eclipse-workspace\HybridFrameworkAug012023\screenshots\PerformProductSearchTest_20230818074623.png' src="C:\eclipse-workspace\HybridFrameworkAug012023\screenshots\PerformProductSearchTest_20230818074623.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:46:23 PM</td>
+        <td>
+          Test Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="45"
+          author=""
+          tag="OpencartSuite ProductDetailsPageTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">productImageTest</p>
+            <p class="text-sm">
+              <span>7:46:47 PM</span> / <span>00:00:00:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">productImageTest</h5>
+<span class='badge badge-success'>08.18.2023 7:46:47 PM</span>
+<span class='badge badge-danger'>08.18.2023 7:46:47 PM</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=45</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">OpencartSuite</span>
+<span class="badge badge-pill badge-default">ProductDetailsPageTest</span></div>
+<div class="m-t-10 m-l-5">TC_01_Verify the product image test</div>
+</div>
+</div>          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="46"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">productImageTest</p>
+            <p class="text-sm">
+              <span>7:46:59 PM</span> / <span>00:00:00:134</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">productImageTest</h5>
+<span class='badge badge-success'>08.18.2023 7:46:59 PM</span>
+<span class='badge badge-danger'>08.18.2023 7:46:59 PM</span>
+<span class='badge badge-default'>00:00:00:134</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=46</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\eclipse-workspace\HybridFrameworkAug012023\screenshots\productImageTest_20230818074659.png' src="C:\eclipse-workspace\HybridFrameworkAug012023\screenshots\productImageTest_20230818074659.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:46:59 PM</td>
+        <td>
+          Test Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="47"
+          author=""
+          tag="OpencartSuite ProductDetailsPageTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">productImageTest</p>
+            <p class="text-sm">
+              <span>7:46:59 PM</span> / <span>00:00:00:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">productImageTest</h5>
+<span class='badge badge-success'>08.18.2023 7:46:59 PM</span>
+<span class='badge badge-danger'>08.18.2023 7:46:59 PM</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=47</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">OpencartSuite</span>
+<span class="badge badge-pill badge-default">ProductDetailsPageTest</span></div>
+<div class="m-t-10 m-l-5">TC_01_Verify the product image test</div>
+</div>
+</div>          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="48"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">productImageTest</p>
+            <p class="text-sm">
+              <span>7:47:10 PM</span> / <span>00:00:00:124</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">productImageTest</h5>
+<span class='badge badge-success'>08.18.2023 7:47:10 PM</span>
+<span class='badge badge-danger'>08.18.2023 7:47:10 PM</span>
+<span class='badge badge-default'>00:00:00:124</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=48</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\eclipse-workspace\HybridFrameworkAug012023\screenshots\productImageTest_20230818074710.png' src="C:\eclipse-workspace\HybridFrameworkAug012023\screenshots\productImageTest_20230818074710.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:47:10 PM</td>
+        <td>
+          Test Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="49"
+          author=""
+          tag="OpencartSuite ProductDetailsPageTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">productImageTest</p>
+            <p class="text-sm">
+              <span>7:47:10 PM</span> / <span>00:00:00:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">productImageTest</h5>
+<span class='badge badge-success'>08.18.2023 7:47:10 PM</span>
+<span class='badge badge-danger'>08.18.2023 7:47:10 PM</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=49</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">OpencartSuite</span>
+<span class="badge badge-pill badge-default">ProductDetailsPageTest</span></div>
+<div class="m-t-10 m-l-5">TC_01_Verify the product image test</div>
+</div>
+</div>          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="50"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">productImageTest</p>
+            <p class="text-sm">
+              <span>7:47:22 PM</span> / <span>00:00:00:115</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">productImageTest</h5>
+<span class='badge badge-success'>08.18.2023 7:47:22 PM</span>
+<span class='badge badge-danger'>08.18.2023 7:47:22 PM</span>
+<span class='badge badge-default'>00:00:00:115</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=50</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\eclipse-workspace\HybridFrameworkAug012023\screenshots\productImageTest_20230818074722.png' src="C:\eclipse-workspace\HybridFrameworkAug012023\screenshots\productImageTest_20230818074722.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:47:22 PM</td>
+        <td>
+          Test Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="51"
+          author=""
+          tag="OpencartSuite ProductDetailsPageTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">productImageTest</p>
+            <p class="text-sm">
+              <span>7:47:22 PM</span> / <span>00:00:00:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">productImageTest</h5>
+<span class='badge badge-success'>08.18.2023 7:47:22 PM</span>
+<span class='badge badge-danger'>08.18.2023 7:47:22 PM</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=51</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">OpencartSuite</span>
+<span class="badge badge-pill badge-default">ProductDetailsPageTest</span></div>
+<div class="m-t-10 m-l-5">TC_01_Verify the product image test</div>
+</div>
+</div>          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="52"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">productImageTest</p>
+            <p class="text-sm">
+              <span>7:47:34 PM</span> / <span>00:00:00:142</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">productImageTest</h5>
+<span class='badge badge-success'>08.18.2023 7:47:34 PM</span>
+<span class='badge badge-danger'>08.18.2023 7:47:34 PM</span>
+<span class='badge badge-default'>00:00:00:142</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=52</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\eclipse-workspace\HybridFrameworkAug012023\screenshots\productImageTest_20230818074734.png' src="C:\eclipse-workspace\HybridFrameworkAug012023\screenshots\productImageTest_20230818074734.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:47:34 PM</td>
+        <td>
+          Test Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="53"
+          author=""
+          tag="OpencartSuite ProductDetailsPageTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">productImageTest</p>
+            <p class="text-sm">
+              <span>7:47:34 PM</span> / <span>00:00:00:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">productImageTest</h5>
+<span class='badge badge-success'>08.18.2023 7:47:34 PM</span>
+<span class='badge badge-danger'>08.18.2023 7:47:34 PM</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=53</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">OpencartSuite</span>
+<span class="badge badge-pill badge-default">ProductDetailsPageTest</span></div>
+<div class="m-t-10 m-l-5">TC_01_Verify the product image test</div>
+</div>
+</div>          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="54"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">productImageTest</p>
+            <p class="text-sm">
+              <span>7:47:45 PM</span> / <span>00:00:00:150</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">productImageTest</h5>
+<span class='badge badge-success'>08.18.2023 7:47:45 PM</span>
+<span class='badge badge-danger'>08.18.2023 7:47:46 PM</span>
+<span class='badge badge-default'>00:00:00:150</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=54</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\eclipse-workspace\HybridFrameworkAug012023\screenshots\productImageTest_20230818074745.png' src="C:\eclipse-workspace\HybridFrameworkAug012023\screenshots\productImageTest_20230818074745.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:47:45 PM</td>
+        <td>
+          Test Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="55"
+          author=""
+          tag="OpencartSuite ProductDetailsPageTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">ProductMetadataTest</p>
+            <p class="text-sm">
+              <span>7:47:46 PM</span> / <span>00:00:00:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">ProductMetadataTest</h5>
+<span class='badge badge-success'>08.18.2023 7:47:46 PM</span>
+<span class='badge badge-danger'>08.18.2023 7:47:46 PM</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=55</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">OpencartSuite</span>
+<span class="badge badge-pill badge-default">ProductDetailsPageTest</span></div>
+<div class="m-t-10 m-l-5">TC_02_ product_metadata Test</div>
+</div>
+</div>          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="56"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">ProductMetadataTest</p>
+            <p class="text-sm">
+              <span>7:47:57 PM</span> / <span>00:00:00:137</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">ProductMetadataTest</h5>
+<span class='badge badge-success'>08.18.2023 7:47:57 PM</span>
+<span class='badge badge-danger'>08.18.2023 7:47:57 PM</span>
+<span class='badge badge-default'>00:00:00:137</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=56</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\eclipse-workspace\HybridFrameworkAug012023\screenshots\ProductMetadataTest_20230818074757.png' src="C:\eclipse-workspace\HybridFrameworkAug012023\screenshots\ProductMetadataTest_20230818074757.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:47:57 PM</td>
+        <td>
+          Test Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="57"
+          author=""
+          tag="OpencartSuite RegistrationPageTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">RegisterAccountTest</p>
+            <p class="text-sm">
+              <span>7:48:14 PM</span> / <span>00:00:00:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">RegisterAccountTest</h5>
+<span class='badge badge-success'>08.18.2023 7:48:14 PM</span>
+<span class='badge badge-danger'>08.18.2023 7:48:14 PM</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=57</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">OpencartSuite</span>
+<span class="badge badge-pill badge-default">RegistrationPageTest</span></div>
+<div class="m-t-10 m-l-5">TC_01_Register an account with faker data</div>
+</div>
+</div>          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="58"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">RegisterAccountTest</p>
+            <p class="text-sm">
+              <span>7:48:56 PM</span> / <span>00:00:00:164</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">RegisterAccountTest</h5>
+<span class='badge badge-success'>08.18.2023 7:48:56 PM</span>
+<span class='badge badge-danger'>08.18.2023 7:48:57 PM</span>
+<span class='badge badge-default'>00:00:00:164</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=58</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\eclipse-workspace\HybridFrameworkAug012023\screenshots\RegisterAccountTest_20230818074856.png' src="C:\eclipse-workspace\HybridFrameworkAug012023\screenshots\RegisterAccountTest_20230818074856.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:48:56 PM</td>
+        <td>
+          Test Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="59"
+          author=""
+          tag="OpencartSuite RegistrationPageTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">registerAccountWithExcelDataTest</p>
+            <p class="text-sm">
+              <span>7:49:10 PM</span> / <span>00:00:00:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">registerAccountWithExcelDataTest</h5>
+<span class='badge badge-success'>08.18.2023 7:49:10 PM</span>
+<span class='badge badge-danger'>08.18.2023 7:49:10 PM</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=59</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">OpencartSuite</span>
+<span class="badge badge-pill badge-default">RegistrationPageTest</span></div>
+<div class="m-t-10 m-l-5">TC_02_Register an account with excel data</div>
+</div>
+</div>          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="60"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">registerAccountWithExcelDataTest</p>
+            <p class="text-sm">
+              <span>7:49:52 PM</span> / <span>00:00:00:143</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">registerAccountWithExcelDataTest</h5>
+<span class='badge badge-success'>08.18.2023 7:49:52 PM</span>
+<span class='badge badge-danger'>08.18.2023 7:49:52 PM</span>
+<span class='badge badge-default'>00:00:00:143</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=60</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\eclipse-workspace\HybridFrameworkAug012023\screenshots\registerAccountWithExcelDataTest_20230818074952.png' src="C:\eclipse-workspace\HybridFrameworkAug012023\screenshots\registerAccountWithExcelDataTest_20230818074952.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:49:52 PM</td>
+        <td>
+          Test Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="61"
+          author=""
+          tag="OpencartSuite RegistrationPageTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">registerAccountWithExcelDataTest</p>
+            <p class="text-sm">
+              <span>7:50:04 PM</span> / <span>00:00:00:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">registerAccountWithExcelDataTest</h5>
+<span class='badge badge-success'>08.18.2023 7:50:04 PM</span>
+<span class='badge badge-danger'>08.18.2023 7:50:04 PM</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=61</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">OpencartSuite</span>
+<span class="badge badge-pill badge-default">RegistrationPageTest</span></div>
+<div class="m-t-10 m-l-5">TC_02_Register an account with excel data</div>
+</div>
+</div>          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="62"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">registerAccountWithExcelDataTest</p>
+            <p class="text-sm">
+              <span>7:50:47 PM</span> / <span>00:00:00:159</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">registerAccountWithExcelDataTest</h5>
+<span class='badge badge-success'>08.18.2023 7:50:47 PM</span>
+<span class='badge badge-danger'>08.18.2023 7:50:47 PM</span>
+<span class='badge badge-default'>00:00:00:159</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=62</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\eclipse-workspace\HybridFrameworkAug012023\screenshots\registerAccountWithExcelDataTest_20230818075047.png' src="C:\eclipse-workspace\HybridFrameworkAug012023\screenshots\registerAccountWithExcelDataTest_20230818075047.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:50:47 PM</td>
+        <td>
+          Test Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="63"
+          author=""
+          tag="OpencartSuite RegistrationPageTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">registerAccountWithExcelDataTest</p>
+            <p class="text-sm">
+              <span>7:50:59 PM</span> / <span>00:00:00:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">registerAccountWithExcelDataTest</h5>
+<span class='badge badge-success'>08.18.2023 7:50:59 PM</span>
+<span class='badge badge-danger'>08.18.2023 7:50:59 PM</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=63</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">OpencartSuite</span>
+<span class="badge badge-pill badge-default">RegistrationPageTest</span></div>
+<div class="m-t-10 m-l-5">TC_02_Register an account with excel data</div>
+</div>
+</div>          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="64"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">registerAccountWithExcelDataTest</p>
+            <p class="text-sm">
+              <span>7:51:42 PM</span> / <span>00:00:00:161</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">registerAccountWithExcelDataTest</h5>
+<span class='badge badge-success'>08.18.2023 7:51:42 PM</span>
+<span class='badge badge-danger'>08.18.2023 7:51:42 PM</span>
+<span class='badge badge-default'>00:00:00:161</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=64</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\eclipse-workspace\HybridFrameworkAug012023\screenshots\registerAccountWithExcelDataTest_20230818075142.png' src="C:\eclipse-workspace\HybridFrameworkAug012023\screenshots\registerAccountWithExcelDataTest_20230818075142.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:51:42 PM</td>
+        <td>
+          Test Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="65"
+          author=""
+          tag="OpencartSuite RegistrationPageTest"
+          device="">
+          <div class="test-detail">
+            <p class="name">registerAccountWithExcelDataTest</p>
+            <p class="text-sm">
+              <span>7:51:54 PM</span> / <span>00:00:00:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">registerAccountWithExcelDataTest</h5>
+<span class='badge badge-success'>08.18.2023 7:51:54 PM</span>
+<span class='badge badge-danger'>08.18.2023 7:51:54 PM</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=65</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">OpencartSuite</span>
+<span class="badge badge-pill badge-default">RegistrationPageTest</span></div>
+<div class="m-t-10 m-l-5">TC_02_Register an account with excel data</div>
+</div>
+</div>          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="66"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">registerAccountWithExcelDataTest</p>
+            <p class="text-sm">
+              <span>7:52:36 PM</span> / <span>00:00:00:144</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">registerAccountWithExcelDataTest</h5>
+<span class='badge badge-success'>08.18.2023 7:52:36 PM</span>
+<span class='badge badge-danger'>08.18.2023 7:52:37 PM</span>
+<span class='badge badge-default'>00:00:00:144</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=66</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\eclipse-workspace\HybridFrameworkAug012023\screenshots\registerAccountWithExcelDataTest_20230818075236.png' src="C:\eclipse-workspace\HybridFrameworkAug012023\screenshots\registerAccountWithExcelDataTest_20230818075236.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:52:36 PM</td>
+        <td>
+          Test Passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">6</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>5</span>
+</span>
+<p class="name">RegistrationPageTest</p>
+<p class="duration text-sm">5 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>RegistrationPageTest</h4>
+<span status="pass" class='badge log pass-bg'>5 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:48:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='57' id='57'>RegisterAccountTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:49:10 PM</td>
+<td>
+<a href="#" class="linked" test-id='59' id='59'>registerAccountWithExcelDataTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:50:04 PM</td>
+<td>
+<a href="#" class="linked" test-id='61' id='61'>registerAccountWithExcelDataTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:50:59 PM</td>
+<td>
+<a href="#" class="linked" test-id='63' id='63'>registerAccountWithExcelDataTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:51:54 PM</td>
+<td>
+<a href="#" class="linked" test-id='65' id='65'>registerAccountWithExcelDataTest</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>6</span>
+</span>
+<p class="name">ProductDetailsPageTest</p>
+<p class="duration text-sm">6 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>ProductDetailsPageTest</h4>
+<span status="pass" class='badge log pass-bg'>6 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:46:47 PM</td>
+<td>
+<a href="#" class="linked" test-id='45' id='45'>productImageTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:46:59 PM</td>
+<td>
+<a href="#" class="linked" test-id='47' id='47'>productImageTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:47:10 PM</td>
+<td>
+<a href="#" class="linked" test-id='49' id='49'>productImageTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:47:22 PM</td>
+<td>
+<a href="#" class="linked" test-id='51' id='51'>productImageTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:47:34 PM</td>
+<td>
+<a href="#" class="linked" test-id='53' id='53'>productImageTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:47:46 PM</td>
+<td>
+<a href="#" class="linked" test-id='55' id='55'>ProductMetadataTest</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>8</span>
+</span>
+<p class="name">LoginPageTest</p>
+<p class="duration text-sm">8 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>LoginPageTest</h4>
+<span status="pass" class='badge log pass-bg'>8 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:44:39 PM</td>
+<td>
+<a href="#" class="linked" test-id='11' id='11'>verifyLoginPageUrlTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:44:40 PM</td>
+<td>
+<a href="#" class="linked" test-id='13' id='13'>verifyLoginPageTitleTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:44:40 PM</td>
+<td>
+<a href="#" class="linked" test-id='15' id='15'>verifyLoginPageElementsTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:44:40 PM</td>
+<td>
+<a href="#" class="linked" test-id='17' id='17'>navigateToRegistrationPageTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:44:43 PM</td>
+<td>
+<a href="#" class="linked" test-id='19' id='19'>navigateToForgotPasswordPageTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:44:46 PM</td>
+<td>
+<a href="#" class="linked" test-id='21' id='21'>emptyCredsLoginTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:44:54 PM</td>
+<td>
+<a href="#" class="linked" test-id='23' id='23'>happyPathLoginTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:45:01 PM</td>
+<td>
+<a href="#" class="linked" test-id='25' id='25'>logoutTest</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>5</span>
+</span>
+<p class="name">HomePageTest</p>
+<p class="duration text-sm">5 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>HomePageTest</h4>
+<span status="pass" class='badge log pass-bg'>5 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:44:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>verifyOpencartLogoTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:44:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='3' id='3'>verifyOpencartPageTitleTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:44:15 PM</td>
+<td>
+<a href="#" class="linked" test-id='5' id='5'>verifyFeaturedCardsCountTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:44:15 PM</td>
+<td>
+<a href="#" class="linked" test-id='7' id='7'>navigateToRegistrationPageTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:44:23 PM</td>
+<td>
+<a href="#" class="linked" test-id='9' id='9'>navigateToLoginPageTest</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>33</span>
+</span>
+<p class="name">OpencartSuite</p>
+<p class="duration text-sm">33 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>OpencartSuite</h4>
+<span status="pass" class='badge log pass-bg'>33 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:44:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>verifyOpencartLogoTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:44:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='3' id='3'>verifyOpencartPageTitleTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:44:15 PM</td>
+<td>
+<a href="#" class="linked" test-id='5' id='5'>verifyFeaturedCardsCountTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:44:15 PM</td>
+<td>
+<a href="#" class="linked" test-id='7' id='7'>navigateToRegistrationPageTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:44:23 PM</td>
+<td>
+<a href="#" class="linked" test-id='9' id='9'>navigateToLoginPageTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:44:39 PM</td>
+<td>
+<a href="#" class="linked" test-id='11' id='11'>verifyLoginPageUrlTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:44:40 PM</td>
+<td>
+<a href="#" class="linked" test-id='13' id='13'>verifyLoginPageTitleTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:44:40 PM</td>
+<td>
+<a href="#" class="linked" test-id='15' id='15'>verifyLoginPageElementsTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:44:40 PM</td>
+<td>
+<a href="#" class="linked" test-id='17' id='17'>navigateToRegistrationPageTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:44:43 PM</td>
+<td>
+<a href="#" class="linked" test-id='19' id='19'>navigateToForgotPasswordPageTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:44:46 PM</td>
+<td>
+<a href="#" class="linked" test-id='21' id='21'>emptyCredsLoginTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:44:54 PM</td>
+<td>
+<a href="#" class="linked" test-id='23' id='23'>happyPathLoginTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:45:01 PM</td>
+<td>
+<a href="#" class="linked" test-id='25' id='25'>logoutTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:45:25 PM</td>
+<td>
+<a href="#" class="linked" test-id='27' id='27'>verifyMyAccountPageUrlTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:45:25 PM</td>
+<td>
+<a href="#" class="linked" test-id='29' id='29'>verifyMyAccountPageTitleTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:45:25 PM</td>
+<td>
+<a href="#" class="linked" test-id='31' id='31'>verifyMyAccountPageElementsTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:45:28 PM</td>
+<td>
+<a href="#" class="linked" test-id='33' id='33'>verifyMyAccountMenuOptionsTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:45:30 PM</td>
+<td>
+<a href="#" class="linked" test-id='35' id='35'>verifyMyAccountHeadersListTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:45:30 PM</td>
+<td>
+<a href="#" class="linked" test-id='37' id='37'>verifyBrokenLinksInMyAccountPageTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:46:08 PM</td>
+<td>
+<a href="#" class="linked" test-id='39' id='39'>PerformProductSearchTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:46:13 PM</td>
+<td>
+<a href="#" class="linked" test-id='41' id='41'>PerformProductSearchTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:46:18 PM</td>
+<td>
+<a href="#" class="linked" test-id='43' id='43'>PerformProductSearchTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:46:47 PM</td>
+<td>
+<a href="#" class="linked" test-id='45' id='45'>productImageTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:46:59 PM</td>
+<td>
+<a href="#" class="linked" test-id='47' id='47'>productImageTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:47:10 PM</td>
+<td>
+<a href="#" class="linked" test-id='49' id='49'>productImageTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:47:22 PM</td>
+<td>
+<a href="#" class="linked" test-id='51' id='51'>productImageTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:47:34 PM</td>
+<td>
+<a href="#" class="linked" test-id='53' id='53'>productImageTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:47:46 PM</td>
+<td>
+<a href="#" class="linked" test-id='55' id='55'>ProductMetadataTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:48:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='57' id='57'>RegisterAccountTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:49:10 PM</td>
+<td>
+<a href="#" class="linked" test-id='59' id='59'>registerAccountWithExcelDataTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:50:04 PM</td>
+<td>
+<a href="#" class="linked" test-id='61' id='61'>registerAccountWithExcelDataTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:50:59 PM</td>
+<td>
+<a href="#" class="linked" test-id='63' id='63'>registerAccountWithExcelDataTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:51:54 PM</td>
+<td>
+<a href="#" class="linked" test-id='65' id='65'>registerAccountWithExcelDataTest</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>9</span>
+</span>
+<p class="name">MyAccountPageTest</p>
+<p class="duration text-sm">9 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>MyAccountPageTest</h4>
+<span status="pass" class='badge log pass-bg'>9 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:45:25 PM</td>
+<td>
+<a href="#" class="linked" test-id='27' id='27'>verifyMyAccountPageUrlTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:45:25 PM</td>
+<td>
+<a href="#" class="linked" test-id='29' id='29'>verifyMyAccountPageTitleTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:45:25 PM</td>
+<td>
+<a href="#" class="linked" test-id='31' id='31'>verifyMyAccountPageElementsTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:45:28 PM</td>
+<td>
+<a href="#" class="linked" test-id='33' id='33'>verifyMyAccountMenuOptionsTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:45:30 PM</td>
+<td>
+<a href="#" class="linked" test-id='35' id='35'>verifyMyAccountHeadersListTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:45:30 PM</td>
+<td>
+<a href="#" class="linked" test-id='37' id='37'>verifyBrokenLinksInMyAccountPageTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:46:08 PM</td>
+<td>
+<a href="#" class="linked" test-id='39' id='39'>PerformProductSearchTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:46:13 PM</td>
+<td>
+<a href="#" class="linked" test-id='41' id='41'>PerformProductSearchTest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:46:18 PM</td>
+<td>
+<a href="#" class="linked" test-id='43' id='43'>PerformProductSearchTest</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Aug 18, 2023 07:44:04 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Aug 18, 2023 07:52:44 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>66</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>0</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'>
+<b>66</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='0%'><b>0</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'><b>33</b> events passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> events failed,
+<b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"verifyOpencartLogoTest":0,"verifyOpencartLogoTest":0.252,"verifyOpencartPageTitleTest":0,"verifyOpencartPageTitleTest":0.199,"verifyFeaturedCardsCountTest":0,"verifyFeaturedCardsCountTest":0.204,"navigateToRegistrationPageTest":0,"navigateToRegistrationPageTest":0.251,"navigateToLoginPageTest":0,"navigateToLoginPageTest":0.238,"verifyLoginPageUrlTest":0,"verifyLoginPageUrlTest":0.167,"verifyLoginPageTitleTest":0,"verifyLoginPageTitleTest":0.128,"verifyLoginPageElementsTest":0,"verifyLoginPageElementsTest":0.134,"navigateToRegistrationPageTest":0,"navigateToRegistrationPageTest":0.145,"navigateToForgotPasswordPageTest":0,"navigateToForgotPasswordPageTest":0.147,"emptyCredsLoginTest":0,"emptyCredsLoginTest":0.149,"happyPathLoginTest":0,"happyPathLoginTest":0.111,"logoutTest":0,"logoutTest":0.243,"verifyMyAccountPageUrlTest":0,"verifyMyAccountPageUrlTest":0.158,"verifyMyAccountPageTitleTest":0,"verifyMyAccountPageTitleTest":0.108,"verifyMyAccountPageElementsTest":0,"verifyMyAccountPageElementsTest":0.125,"verifyMyAccountMenuOptionsTest":0,"verifyMyAccountMenuOptionsTest":0.103,"verifyMyAccountHeadersListTest":0,"verifyMyAccountHeadersListTest":0.119,"verifyBrokenLinksInMyAccountPageTest":0,"verifyBrokenLinksInMyAccountPageTest":0.137,"PerformProductSearchTest":0,"PerformProductSearchTest":0.182,"PerformProductSearchTest":0,"PerformProductSearchTest":0.141,"PerformProductSearchTest":0,"PerformProductSearchTest":0.147,"productImageTest":0,"productImageTest":0.134,"productImageTest":0,"productImageTest":0.124,"productImageTest":0,"productImageTest":0.115,"productImageTest":0,"productImageTest":0.142,"productImageTest":0,"productImageTest":0.15,"ProductMetadataTest":0,"ProductMetadataTest":0.137,"RegisterAccountTest":0,"RegisterAccountTest":0.164,"registerAccountWithExcelDataTest":0,"registerAccountWithExcelDataTest":0.143,"registerAccountWithExcelDataTest":0,"registerAccountWithExcelDataTest":0.159,"registerAccountWithExcelDataTest":0,"registerAccountWithExcelDataTest":0.161,"registerAccountWithExcelDataTest":0,"registerAccountWithExcelDataTest":0.144
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>RegistrationPageTest</td>
+<td>5</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>ProductDetailsPageTest</td>
+<td>6</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>LoginPageTest</td>
+<td>8</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>HomePageTest</td>
+<td>5</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>OpencartSuite</td>
+<td>33</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>MyAccountPageTest</td>
+<td>9</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="col-lg-6 col-md-12 sysenv-container">
+<div class="card">
+<div class="card-header"><p>System/Environment</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Value</th></tr></thead>
+<tbody>
+<tr>
+<td>Customer Name</td>
+<td>NAL</td>
+</tr>
+<tr>
+<td>Application</td>
+<td>opencart</td>
+</tr>
+<tr>
+<td>Module</td>
+<td>Admin</td>
+</tr>
+<tr>
+<td>Sub Module</td>
+<td>Customers</td>
+</tr>
+<tr>
+<td>Operating System</td>
+<td>Windows 11</td>
+</tr>
+<tr>
+<td>User Name</td>
+<td>rames</td>
+</tr>
+<tr>
+<td>Environemnt</td>
+<td>QA</td>
+</tr>
+<tr>
+<td>Build#</td>
+<td>1.1</td>
+</tr>
+<tr>
+<td>Team</td>
+<td>OpenCart QA Team</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 66,
+failParent: 0,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 33,
+failEvents: 0,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 0
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

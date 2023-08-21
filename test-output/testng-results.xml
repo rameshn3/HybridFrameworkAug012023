@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-17T18:29:34 MST" name="OpencartSuite" finished-at="2023-08-17T18:34:29 MST" duration-ms="295108">
+    <groups>
+    </groups>
+    <test started-at="2023-08-17T18:29:34 MST" name="OpencartTest" finished-at="2023-08-17T18:34:29 MST" duration-ms="295108">
+      <class name="com.qa.opencart.testcase.RegistrationPageTest">
+        <test-method is-config="true" signature="testDataSetup()[pri:0, instance:com.qa.opencart.testcase.RegistrationPageTest@4d0b0fd4]" started-at="2023-08-17T18:29:34 MST" name="testDataSetup" finished-at="2023-08-17T18:29:35 MST" duration-ms="1251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDataSetup -->
+        <test-method is-config="true" signature="commonSetUp(java.lang.String)[pri:0, instance:com.qa.opencart.testcase.RegistrationPageTest@4d0b0fd4]" started-at="2023-08-17T18:29:35 MST" name="commonSetUp" finished-at="2023-08-17T18:29:42 MST" duration-ms="7062" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commonSetUp -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.qa.opencart.testcase.RegistrationPageTest@4d0b0fd4]" started-at="2023-08-17T18:29:42 MST" name="beforeClass" finished-at="2023-08-17T18:29:42 MST" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.qa.opencart.testcase.RegistrationPageTest@4d0b0fd4]" started-at="2023-08-17T18:29:42 MST" name="beforeMethod" finished-at="2023-08-17T18:29:48 MST" duration-ms="5337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="RegisterAccountTest()[pri:1, instance:com.qa.opencart.testcase.RegistrationPageTest@4d0b0fd4]" started-at="2023-08-17T18:29:48 MST" name="RegisterAccountTest" description="TC_01_Register an account with faker data" finished-at="2023-08-17T18:30:33 MST" duration-ms="45052" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterAccountTest -->
+        <test-method is-config="true" signature="doLogout()[pri:0, instance:com.qa.opencart.testcase.RegistrationPageTest@4d0b0fd4]" started-at="2023-08-17T18:30:33 MST" name="doLogout" finished-at="2023-08-17T18:30:41 MST" duration-ms="7628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogout -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.qa.opencart.testcase.RegistrationPageTest@4d0b0fd4]" started-at="2023-08-17T18:30:42 MST" name="beforeMethod" finished-at="2023-08-17T18:30:47 MST" duration-ms="4838" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="registerAccountWithExcelDataTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.qa.opencart.testcase.RegistrationPageTest@4d0b0fd4]" started-at="2023-08-17T18:30:47 MST" name="registerAccountWithExcelDataTest" description="TC_02_Register an account with excel data" data-provider="excelData" finished-at="2023-08-17T18:31:31 MST" duration-ms="44034" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vandana]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[senthil]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3146069849]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[vandana@123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[yes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerAccountWithExcelDataTest -->
+        <test-method is-config="true" signature="doLogout()[pri:0, instance:com.qa.opencart.testcase.RegistrationPageTest@4d0b0fd4]" started-at="2023-08-17T18:31:31 MST" name="doLogout" finished-at="2023-08-17T18:31:39 MST" duration-ms="7607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogout -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.qa.opencart.testcase.RegistrationPageTest@4d0b0fd4]" started-at="2023-08-17T18:31:39 MST" name="beforeMethod" finished-at="2023-08-17T18:31:44 MST" duration-ms="4729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="registerAccountWithExcelDataTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.qa.opencart.testcase.RegistrationPageTest@4d0b0fd4]" started-at="2023-08-17T18:31:44 MST" name="registerAccountWithExcelDataTest" description="TC_02_Register an account with excel data" data-provider="excelData" finished-at="2023-08-17T18:32:28 MST" duration-ms="44010" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[manju]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jayaprakash]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6.234445593E9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[manju@123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[no]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerAccountWithExcelDataTest -->
+        <test-method is-config="true" signature="doLogout()[pri:0, instance:com.qa.opencart.testcase.RegistrationPageTest@4d0b0fd4]" started-at="2023-08-17T18:32:28 MST" name="doLogout" finished-at="2023-08-17T18:32:35 MST" duration-ms="7575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogout -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.qa.opencart.testcase.RegistrationPageTest@4d0b0fd4]" started-at="2023-08-17T18:32:35 MST" name="beforeMethod" finished-at="2023-08-17T18:32:40 MST" duration-ms="4811" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="registerAccountWithExcelDataTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.qa.opencart.testcase.RegistrationPageTest@4d0b0fd4]" started-at="2023-08-17T18:32:40 MST" name="registerAccountWithExcelDataTest" description="TC_02_Register an account with excel data" data-provider="excelData" finished-at="2023-08-17T18:33:24 MST" duration-ms="44397" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[harshini]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ch]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6303236395]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[harshini@123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[yes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerAccountWithExcelDataTest -->
+        <test-method is-config="true" signature="doLogout()[pri:0, instance:com.qa.opencart.testcase.RegistrationPageTest@4d0b0fd4]" started-at="2023-08-17T18:33:25 MST" name="doLogout" finished-at="2023-08-17T18:33:32 MST" duration-ms="7417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogout -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.qa.opencart.testcase.RegistrationPageTest@4d0b0fd4]" started-at="2023-08-17T18:33:32 MST" name="beforeMethod" finished-at="2023-08-17T18:33:37 MST" duration-ms="4724" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="registerAccountWithExcelDataTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.qa.opencart.testcase.RegistrationPageTest@4d0b0fd4]" started-at="2023-08-17T18:33:37 MST" name="registerAccountWithExcelDataTest" description="TC_02_Register an account with excel data" data-provider="excelData" finished-at="2023-08-17T18:34:21 MST" duration-ms="44189" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bhavana]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Uppara]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2.065519189E9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[bhavana@123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[no]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerAccountWithExcelDataTest -->
+        <test-method is-config="true" signature="doLogout()[pri:0, instance:com.qa.opencart.testcase.RegistrationPageTest@4d0b0fd4]" started-at="2023-08-17T18:34:21 MST" name="doLogout" finished-at="2023-08-17T18:34:29 MST" duration-ms="7603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogout -->
+        <test-method is-config="true" signature="commonTearDown()[pri:0, instance:com.qa.opencart.testcase.RegistrationPageTest@4d0b0fd4]" started-at="2023-08-17T18:34:29 MST" name="commonTearDown" finished-at="2023-08-17T18:34:29 MST" duration-ms="195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commonTearDown -->
+      </class> <!-- com.qa.opencart.testcase.RegistrationPageTest -->
+    </test> <!-- OpencartTest -->
+  </suite> <!-- OpencartSuite -->
+</testng-results>
